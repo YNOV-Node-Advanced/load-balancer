@@ -11,3 +11,8 @@ $ PORTS=5001,5002,5003 ./load-balancer.js
 ```
 
 Module à utiliser: `ws`, `http`, ou `net`
+
+### Bonus
+
+1. Ecrire plusieurs strategies de balancing: Roundrobin, random
+2. Ecrire des tests d'integrations sur le serveur
